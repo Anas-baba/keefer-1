@@ -1,0 +1,55 @@
+/* last right*/
+
+
+.lastRight{
+    width: 21%;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+
+.rightClick{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hrrr{
+    width: 85%;
+   background-color: #6b6a6a;
+}
+.Hr{
+    margin-top: 15px;
+    display: flex;
+    justify-content: end;
+}
+
+.ab{
+    padding-top: 10px;
+   
+}
+
+.lastRight h4{
+    color: #808080;
+    font-weight: 400;
+}
+
+
+.Towicon{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.iconNtwo{
+     margin-top: 40px;
+
+}
+
+.fallowUs{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.socialIcon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}

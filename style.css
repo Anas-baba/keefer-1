@@ -5,10 +5,15 @@
     font-family: sans-serif;
 }
 
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
 .main {
     border-left: 25px solid #828282;
     border-right: 25px solid #828282;
-    overflow:none;
+    overflow:hidden;
   
 }
 
@@ -26,6 +31,7 @@
 
 .logo img {
     height: 150px;
+    width: 100%;
 }
 
 .topLeft {
@@ -123,9 +129,13 @@ hr {
 
 .twoPara{
     width: 55%;
+    margin-right: 20px;
+
+
 }
 .twoPara h4{
     color: #808080;
+    
 }
 .h42{
     padding-top: 20px;
@@ -157,10 +167,16 @@ hr {
 
 .caseResult{
     margin:15px ;
+    width: 100%;
 }
+
+
+
 .caseResult h4{
     font-size: 15px;
 }
+
+
 
 .twoIcon{
     display: flex;
@@ -206,82 +222,6 @@ hr {
 
 
 
-/* last section*/
-
-.lastMain{
-    width: 100%;
-    display: flex;
-    margin-top: 40px;
-}
-.lastLEFT{
-    width: 25%;
-    margin-left: 30px
-}
-
-.lastLEFT h2{
-    margin-bottom: 15px
-}
-
-.lastLeftDivs{
-    display: ;
-    background-color: #808080;
-    width: 280px;
-    margin-bottom: 15px;
-}
-
-
-.bartext{
-    display: flex;
-}
-.bartext img{
-    height: 65px;
-    width: 7px;
-}
-
-
-.learnIcon{
-    display: flex;
-    margin-top: -18px;
-    justify-content: flex-end;
-    align-items: center;
-}
-.learnIcon img{
-    width: 16px;
-    height: 12px;
-}
-.learnIcon h4{
-    color:#fff;
-}
-
-.divTextH{
-    padding-top: 10px;
-    padding-left: 10px
-}
-
-.bullet-red{
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.LmoreA{
-    margin-top: 50px;
-}
-
-/* three option*/
-
-.threeOption{
-    text-align: center;
-    margin-top: 55px;  
-    
-}
-
-
-
-.threeOption h2{
-    color: #808080;
-    line-height: 35px;
-
-}
 
 
 /* LAST MEDAL*/

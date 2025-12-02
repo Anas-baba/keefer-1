@@ -12,7 +12,7 @@
 }
 /* left image large*/
 .imgL{
-    width: 46%;
+    width: 100%;
    
     
 }
@@ -21,11 +21,13 @@
     height: 100%;
     margin-left: 20px;
 
-    /*   */
+   
     
 }
+
+ /*   */
 .formR{
-    width: 42%;
+    
     background-image: url("IMAGES/form_bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -36,26 +38,29 @@
 
 
 
-.imgL{
-    width: 55%;
-}
 
 
-.formR{
-    width: 40%;
-}
+
 
 
 /* form area*/
 .formR h1{
+    
+}
+
+.questionAS{
+    
     background-color: #8c191b;
     color: #fff;
     font-style: italic;
-    width: 200px;
+    
     padding: 5px;
+    width: 50%;
+    height: 100%;
 }
 
 .Qtop{
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -65,6 +70,7 @@
 }
 
 .qRight{
+    width: 55%;
     padding: 20px;
     padding-right: 40px;
 }
@@ -76,6 +82,7 @@
 
 .inpuT{
     display: flex;
+    width: 100%;
     margin-left: 20px;
     margin-top: 40px;
 }
@@ -95,13 +102,20 @@
 
 
 .confid{
-   
+    width: 45%;
+   display: flex;
     margin-left:35px ;
     transform: rotate(11deg);
+     align-items: center;
+}
+
+.confid img{
+    height: 80%;
 }
 
 .para{
     margin-left: 20px;
+    width: 80vw;
 }
 
 /* textarea*/
@@ -121,11 +135,17 @@
 
 }
 
+
+.privacy1{
+    width: 40%;
+}
 .privacy{
     color: #808080;
 }
 
+
 .bullet{
+    width: 58%;
     display: flex;
     padding: 10px;
     color: #fff;
@@ -137,4 +157,5 @@
     margin-top: 15px;
     align-items: center;
    margin-left: 20px;
+   width: 100%;
 }

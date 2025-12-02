@@ -1,0 +1,406 @@
+
+
+@media (max-width:1130px){
+
+.lastMainp{
+    width: 100%;
+}
+.lastLEFT{
+    width: ;
+}
+.lastMedal{
+    width: 40%;
+    margin-left: 70px;
+}
+
+.lastLEFT h2{
+    font-size: 1.4rem;
+}
+
+}
+
+
+
+/* 992px*/
+@media (max-width:992px){
+
+    .lastLEFT{
+    width: 35%;
+}
+.lastMedal{
+    width: 45%;
+    margin-left: 20px;
+}
+
+
+.RD h2{
+    font-size:15px;
+
+}
+.lastLeftDivs{
+    width: 220px;
+}
+
+}
+
+
+/* 872px*/
+
+
+@media (max-width:872px){
+    .lastMain{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    /* last left */
+    .lastLEFT{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+         align-items: center;
+        
+        
+       
+    }
+
+    .fourDiv{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .lastLeftDivs{
+        width: 40%;
+    }
+
+    .RD h2{
+        font-size: 1.375rem;
+    }
+
+
+
+    /* last  medal */
+    .lastMedal{
+          
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+         align-items: center;
+        margin-top: 40px;
+        
+    }
+
+    /* right*/
+
+    .lastRight{
+        display: flex;
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+         align-items: center;
+         flex-wrap: wrap;
+    }
+    .lastR1st{
+        width: 50%;
+    }
+    .lastR2nd{
+         width: 50%;
+         
+    }
+  .lastR3rd{
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+    
+  }
+
+
+  .lineOrClick{
+    width: 50%;
+    
+    margin-left: 110px;
+  }
+
+    .Hr{
+        width: 60%;
+        
+         float:right;
+         margin-top: 20px;
+         margin-left: 30px;
+        
+    }
+   
+    .click{
+    
+    
+    
+        margin-bottom: 60px;
+        float: right;
+        
+    }
+
+
+
+
+
+
+
+    /* last two icons*/
+    .Towicon{
+        width: 100%;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        
+    }
+    .iconNtwo{
+        margin-top: 0px;
+
+    }
+
+    /*fallow*/
+    .fallowUs{
+        margin: auto;
+        margin-top: 30px;
+       
+        
+    }
+
+
+
+    /* ====*/
+
+
+
+
+}
+/*=======------*/
+
+@media (max-width:700px){
+
+   
+
+    .RD h2{
+        font-size: 1rem;
+    }
+
+    .learnIcon h4{
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+
+
+}
+
+
+/* 570px*/
+
+@media (max-width:700px){
+
+    .fourDiv{
+      
+        gap: 10px;
+        
+    }
+    .lastLeftDivs{
+        width: 80%;
+    }
+
+}
+
+
+
+
+
+
+
+
+/* 470px*/
+
+@media (max-width:470px){
+    .iconNone{
+        width: 30vw;
+    }
+    .iconNone img{
+        width: 100%;
+    }
+
+    .iconNtwo{
+        width: 30vw;
+    }
+  .iconNtwo img{
+    width: 85%;
+  }
+
+
+  /*---=== last right three div top===-----*/
+
+  .lastRight{
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+         align-items: center;
+         
+    }
+
+
+
+}
+
+/* ---440px----*/
+@media (max-width:440px){
+    .lastR1st h2{
+        font-size: 17px;
+    }
+
+    .lastR1st h4{
+        font-size: 14px;
+    }
+
+    .click{
+        width: 100px;
+    }
+.click h3{
+    font-size: 12px;
+    
+}
+
+/**/
+
+.lastR2nd h2{
+     font-size: 17px;
+
+}
+
+.lastR2nd h4{
+        font-size: 14px;
+    }
+
+    /**/
+    .lastR3rd h2{
+         font-size: 17px;
+
+    }
+
+    .lastR3rd h4{
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+/* 410px-------*/
+@media (max-width:410px){
+    .lastMedal h2{
+        font-size: 19px;
+    }
+}
+
+
+
+
+/*330px-------*/
+@media (max-width:330px){
+    .lastMedal h2{
+        font-size: 17px;
+    }
+
+
+}
+
+/*310px-------*/
+@media (max-width:330px){
+    .lastMedal h2{
+        font-size: 15px;
+    }
+
+
+}
+
+/*270px-------*/
+@media (max-width:330px){
+    .lastMedal h2{
+        font-size: 13px;
+    }
+
+
+}
+
+
+
+
+
+/* ------320px----*/
+
+
+@media (max-width:320px){
+
+    .Towicon{
+       
+        gap:20px; 
+    }
+
+    .fallowUs{
+        width: 50vw;
+    }
+
+    .fallowUs h2{
+        font-size: 15px;
+    }
+    .if_bt_hr{
+        width: 90%;
+        margin: auto;
+        
+       
+    }
+
+
+
+    /**/
+
+     .lastR1st h2{
+        font-size: 15px;
+    }
+
+    .lastR1st h4{
+        font-size: 12px;
+    }
+
+    .lastR2nd h2{
+     font-size: 15px;
+
+}
+
+.lastR2nd h4{
+        font-size: 12px;
+    }
+
+     .lastR3rd h2{
+         font-size: 15px;
+
+    }
+
+    .lastR3rd h4{
+        font-size: 12px;
+    }
+
+
+    .click{
+        margin-right: 0px;
+    }
+    .lastT3{
+        margin-right: 40px;
+        
+       
+    }
+
+}
